@@ -1,0 +1,55 @@
+.navbar {
+  background-color: rgb(53,80,112);
+  overflow: hidden;
+  height: auto;
+  font-family: 'Josefin Sans Bold';
+  padding: 1rem;
+}
+
+.navbar-left{
+  float: left;
+}
+.navbar-right{
+  float: right;
+}
+
+.navbar a {
+  color: rgb(255,231,212);
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgb(181, 101, 117);
+}
+
+/* BURGER MENU*/
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255,231,212);
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 991px) {
+  .navbar-right {
+    display: none; /* Hide the regular menu items */
+  }
+
+  .burger-menu {
+    display: block; /* Show the burger menu */
+  }
+}

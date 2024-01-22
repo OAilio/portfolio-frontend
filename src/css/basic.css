@@ -1,0 +1,74 @@
+body{
+  margin: 0%;
+  background-color: rgb(255,231,212);
+}
+
+:root {
+  --h1-font-size: 8rem;
+  --h2-font-size: 4.5rem;
+  --h3-font-size: 2.5rem;
+  --p-font-size: 2.5rem;
+  --navbar-font-size: 2rem;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-family: 'Josefin Sans Bold';
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-family: 'Josefin Sans SemiBold';
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  font-family: 'Josefin Sans Regular';
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: var(--p-font-size);
+  font-family: 'Josefin Slab SemiBold';
+}
+
+a {
+  font-size: var(--navbar-font-size);
+  font-family: 'Josefin Sans Bold';
+}
+
+/* Media queries to adjust font sizes based on screen width */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  :root {
+    --h1-font-size: 6rem;
+    --h2-font-size: 3.5rem;
+    --h3-font-size: 2rem;
+    --p-font-size: 1.6rem;
+    --navbar-font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 479px) and (max-width: 991px) {
+  :root {
+    --h1-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.6rem;
+    --p-font-size: 1.25rem;
+    --navbar-font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  :root {
+    --h1-font-size: 2.125rem;
+    --h2-font-size: 1.2rem;
+    --h3-font-size: 1rem;
+    --p-font-size: 0.75rem;
+    --navbar-font-size: 1rem;
+  }
+}
