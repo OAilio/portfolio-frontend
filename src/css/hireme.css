@@ -1,0 +1,10 @@
+.hire-me-container{
+    padding: 8vh 0vh;
+    color: rgb(181, 101, 117); 
+}
+
+.hire-me-header {
+    text-align: center;
+    max-width: 60%;
+    margin: 2rem auto;
+}

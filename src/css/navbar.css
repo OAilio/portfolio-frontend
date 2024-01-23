@@ -4,6 +4,9 @@
   height: auto;
   font-family: 'Josefin Sans Bold';
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar-left{
@@ -50,6 +53,9 @@
   }
 
   .burger-menu {
-    display: block; /* Show the burger menu */
+    color: none;
+    /* display: block; Show the burger menu */
   }
+
+  
 }

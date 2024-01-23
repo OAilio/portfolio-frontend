@@ -1,0 +1,48 @@
+:root{
+    --button-font-size: 1.625rem;
+    --tag-font-size: 1.25rem;
+}
+
+.blue-button {
+    font-size: var(--button-font-size);
+    font-family: 'Josefin Sans Bold';
+    background-color: rgb(53,80,112);
+    color: rgb(255,231,212);
+    border-radius: 15px;
+    border: none;
+    padding: 1rem 2.5rem 0.75rem;
+}
+
+.skill-tag {
+    color: rgb(140, 59, 75);
+    font-size: var(--tag-font-size);
+    font-family: 'Josefin Sans Bold';
+    border-color: rgb(140, 59, 75);
+    background-color: rgb(255, 231, 212);
+    border-style: solid;
+    border-radius: 15px;
+    padding: 0.75rem 1.75rem 0.5rem;
+    margin: 0 0.5rem 0.75rem 0.5rem;
+}
+
+  /* Media queries to adjust font sizes based on screen width */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    :root {
+        --button-font-size: 1.25rem;
+        --tag-font-size: 0.75rem;
+    }
+}
+  
+@media screen and (min-width: 479px) and (max-width: 991px) {
+    :root {
+        --button-font-size: 1.125rem;
+        --tag-font-size: 0.75rem;
+    }
+}
+  
+@media screen and (max-width: 478px) {
+    :root {
+        --button-font-size: 1.125rem;
+        --tag-font-size: 0.75rem;
+    }
+}
