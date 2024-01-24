@@ -8,7 +8,7 @@ body{
   --h2-font-size: 4.5rem;
   --h3-font-size: 3rem;
   --h4-font-size: 2.5rem;
-  --hp-font-size: 2.5rem;
+  --h5-font-size: 2.5rem;
   --p-font-size: 2rem;
   --navbar-font-size: 2rem;
 }
@@ -41,8 +41,8 @@ h4 {
   padding: 0;
 }
 
-hp {
-  font-size: var(--hp-font-size);
+h5 {
+  font-size: var(--h5-font-size);
   font-family: 'Josefin Slab SemiBold';
 }
 
@@ -64,7 +64,7 @@ a {
     --h2-font-size: 3.5rem;
     --h3-font-size: 2.5rem;
     --h4-font-size: 2rem;
-    --hp-font-size: 1.625rem;
+    --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
     --navbar-font-size: 1.2rem;
   }
@@ -76,7 +76,7 @@ a {
     --h2-font-size: 2.5rem;
     --h3-font-size: 2.125rem;
     --h4-font-size: 1.6rem;
-    --hp-font-size: 1.625rem;
+    --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
     --navbar-font-size: 1rem;
   }
@@ -88,7 +88,7 @@ a {
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.5rem;
     --h4-font-size: 1.25rem;
-    --hp-font-size: 1.125rem;
+    --h5-font-size: 1.125rem;
     --p-font-size: 1.25rem;
     --navbar-font-size: 1rem;
   }

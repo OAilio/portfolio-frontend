@@ -1,10 +1,63 @@
 .hire-me-container{
     padding: 8vh 0vh;
-    color: rgb(181, 101, 117); 
+    color: rgb(140, 59, 75);
 }
 
 .hire-me-header {
     text-align: center;
     max-width: 60%;
-    margin: 2rem auto;
+    margin: 2rem auto 4rem;
+}
+
+.hire-me-cards {
+    max-width: 95%;
+    margin: 2vh auto;
+    display: flex;
+}
+
+.hire-me-card {
+    display: inline-block;
+    color: rgb(140, 59, 75);
+    background-color: rgb(254, 238, 224);
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 15px;
+    max-width: 25%;
+    border-style: solid;
+    border-color: rgb(140, 59, 75);
+    border-width: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.button-container{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon {
+    padding: 2rem;
+    font-size: 6rem;
+}
+
+@media screen and (max-width: 991px) {
+    .hire-me-header {
+        max-width: 90%;
+    }
+
+    .hire-me-cards {
+        flex-direction: column;
+    }
+
+    .hire-me-card {
+        max-width: 60%;
+        margin: 2vh auto;
+    }
+
+    .card-icon{
+        font-size: 3rem;
+        padding: 1rem;
+    }
 }

@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+// eslint-disable-next-line no-unused-vars
 import './css/basic.css'
 import './css/navbar.css'
 import './css/landing.css'
@@ -6,8 +7,9 @@ import './css/fonts.css'
 import './css/about.css'
 import './css/buttons.css'
 import './css/hireme.css'
+import './css/projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
+import { faAnglesDown, faBookOpenReader, faLightbulb, faPeopleCarryBox } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar = () => {
@@ -47,8 +49,8 @@ const LandingContent = () => {
         <div className="landing-text">
           <h1>HELLO!</h1>
           <h2>I am John Name</h2>
-          <hp>A 3rd year CS student at the University of Turku,
-            with an interest for UI/UX-design and web development</hp>
+          <h5>A 3rd year CS student at the University of Turku,
+            with an interest for UI/UX-design and web development</h5>
         </div>
         <div className="my-picture">
           <img src='./pictures/okko.jpg' alt='My Picture' />
@@ -70,7 +72,7 @@ const AboutMe = () => {
     <>
       <div className="about-me-container">
         <div className="about-me-header">
-          <h3>About Me</h3>
+          <h3>About me</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Nunc sodales non dui sed posuere.</p>
         </div>
@@ -104,10 +106,54 @@ const HireMe = () => {
   return (
     <div className="hire-me-container">
       <div className="hire-me-header">
-      <h2>Why should You hire me?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere.</p>
+        <h2>Why should You hire me?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc sodales non dui sed posuere.</p>
       </div>
+      <div className="hire-me-cards">
+        <div className="hire-me-card">
+          <h3>Learner</h3>
+          <FontAwesomeIcon icon={faBookOpenReader} className="card-icon" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc sodales non dui sed posuere.</p>
+        </div>
+        <div className="hire-me-card">
+          <h3>Team Player</h3>
+          <FontAwesomeIcon icon={faPeopleCarryBox} className="card-icon" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc sodales non dui sed posuere. </p>
+        </div>
+        <div className="hire-me-card">
+          <h3>Proactive</h3>
+          <FontAwesomeIcon icon={faLightbulb} className="card-icon" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc sodales non dui sed posuere.</p>
+        </div>
+      </div>
+      <div className="button-container">
+        <button className='blue-button'>
+          Download my CV
+        </button>
+      </div>
+    </div>
+  )
+}
+
+const Projects = () => {
+  return (
+    <div className="projects-container">
+      <div className="projects-header">
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc sodales non dui sed posuere.</p>
+      </div>
+      {/* <div className='carousel'>
+        <div className='carousel-item'>
+          <h3>Moi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc sodales non dui sed posuere.</p>
+        </div>
+      </div> */}
     </div>
   )
 }
@@ -119,6 +165,7 @@ const App = () => {
       <LandingContent />
       <AboutMe />
       <HireMe />
+      <Projects />
     </div>
   )
 }
