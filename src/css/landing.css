@@ -1,9 +1,18 @@
+.landing-container{
+    min-height: 93vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    color: rgb(140, 59, 75);
+}
 
 .landing-content{
-    color: rgb(140, 59, 75);
-    margin: 8vw 10vw;
+    max-width: 90%;
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
     align-items: center;
+    padding-top: 10vh;
 }
 
 .landing-text{
@@ -19,20 +28,43 @@
 }
 
 .landing-bottom{
-    margin-top: 10vw;
+    margin-top: 6vw;
     text-align: center;
-    color: rgb(140, 59, 75);
+    justify-content: end;
 }
 
 .down-arrows {
     padding: 0.5rem;
     font-size: 1.5rem;
-    margin-bottom: 4vh;
+}
+
+@media screen and (max-width: 1450px) {
+    .my-picture img{
+        max-width: 25rem;
+    }
+
+    .landing-bottom {
+        margin-top: 6vh;
+    }
 }
 
 @media screen and (max-width: 1280px) {
     .my-picture img{
-        max-width: 20rem;
+        max-width: 22rem;
+    }
+
+    .landing-bottom {
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .my-picture img{
+        max-width: 18rem;
+    }
+
+    .landing-bottom {
+        margin-top: 6vh;
     }
 }
 
@@ -41,26 +73,27 @@
     .landing-content {
         flex-direction: column;
         align-items: center;
-        padding-top: 8vh;
+        padding-top: 12vh;
     }
 
     .landing-text {
         text-align: center;
         margin-right: 0;
-        margin-bottom: 2vw;
     }
 
     .my-picture img {
         display: block;
         margin: 1rem auto;
-        max-width: 60%;
-    }
-
-    .my-picture img{
         max-width: 16rem;
     }
 
     .landing-bottom {
         margin-top: 2vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .landing-content {
+        padding-top: 6vh;
     }
 }

@@ -8,6 +8,7 @@ import './css/about.css'
 import './css/buttons.css'
 import './css/hireme.css'
 import './css/projects.css'
+import Projects from './Projects'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown, faBookOpenReader, faLightbulb, faPeopleCarryBox } from '@fortawesome/free-solid-svg-icons';
 
@@ -25,7 +26,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <a href="#home">JOHN NAME</a>
+        <a href="#home">OKKO AILIO</a>
       </div>
       <div className="navbar-right">
         <a href="#home">Home</a>
@@ -44,29 +45,29 @@ const Navbar = () => {
 
 const LandingContent = () => {
   return (
-    <>
+    <div className="landing-container">
       <div className="landing-content">
         <div className="landing-text">
           <h1>HELLO!</h1>
-          <h2>I am John Name</h2>
+          <h2>I am Okko Ailio</h2>
           <h5>A 3rd year CS student at the University of Turku,
             with an interest for UI/UX-design and web development</h5>
         </div>
         <div className="my-picture">
-          <img src='./pictures/okko.jpg' alt='My Picture' />
+          <img src='pictures/okko.jpg' alt='My Picture' />
         </div>
       </div>
       <div className="landing-bottom">
         <h4>Get to know me!</h4>
-        <FontAwesomeIcon icon={faAnglesDown} className="down-arrows"/>
+        <FontAwesomeIcon icon={faAnglesDown} fade className="down-arrows"/>
       </div>
-    </>
+    </div>
   )
 }
 
 const AboutMe = () => {
   const listOfSkills = ["HTML", "CSS", "JavaScript", "Python", "Figma", "Java", "Canva",
-  "Scrum", "Office Programs", "WordPress", "Git", "React"]
+  "Scrum", "Office Programs", "WordPress", "Git", "React", "SQL"]
   
   return (
     <>
@@ -84,9 +85,11 @@ const AboutMe = () => {
               which I'm currently writing my bachelors thesis on.</p>
             <p>If You're still wondering, whether to hire me, check out the next segment.
               You can also contact me immediately below!</p>
-            <button className="blue-button">
-              Contact
-            </button>
+            <div className='button-container'>
+              <a className="blue-button">
+                Contact
+              </a>
+            </div>
           </div>
           <div className="my-skills">
             <h3>My Skills</h3>
@@ -131,29 +134,10 @@ const HireMe = () => {
         </div>
       </div>
       <div className="button-container">
-        <button className='blue-button'>
+        <a className='blue-button'>
           Download my CV
-        </button>
+        </a>
       </div>
-    </div>
-  )
-}
-
-const Projects = () => {
-  return (
-    <div className="projects-container">
-      <div className="projects-header">
-        <h2>Projects</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nunc sodales non dui sed posuere.</p>
-      </div>
-      {/* <div className='carousel'>
-        <div className='carousel-item'>
-          <h3>Moi</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nunc sodales non dui sed posuere.</p>
-        </div>
-      </div> */}
     </div>
   )
 }

@@ -11,7 +11,7 @@
 
 .hire-me-cards {
     max-width: 95%;
-    margin: 2vh auto;
+    margin: 2vh auto 6vh;
     display: flex;
 }
 
@@ -24,16 +24,12 @@
     max-width: 25%;
     border-style: solid;
     border-color: rgb(140, 59, 75);
-    border-width: 10px;
+    /* border-width: 10px; */
     margin: auto;
     text-align: center;
 }
 
-
-
-.button-container{
-    padding: 1rem;
-    display: flex;
+.hire-me-container .button-container{
     justify-content: center;
 }
 
@@ -49,6 +45,7 @@
 
     .hire-me-cards {
         flex-direction: column;
+        margin: 2vh auto 2vh;
     }
 
     .hire-me-card {

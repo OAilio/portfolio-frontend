@@ -1,12 +1,16 @@
 .navbar {
   background-color: rgb(53,80,112);
   overflow: hidden;
-  height: auto;
+  height: 7vh;
   font-family: 'Josefin Sans Bold';
-  padding: 1rem;
+  padding: 0rem;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-left{
@@ -14,6 +18,8 @@
 }
 .navbar-right{
   float: right;
+  padding-right: 2rem;
+  margin-left: auto;
 }
 
 .navbar a {
@@ -26,11 +32,11 @@
 }
 
 .navbar a:hover {
-  color: rgb(181, 101, 117);
+  color: rgb(254, 238, 224);
 }
 
 /* BURGER MENU*/
-.burger-menu {
+/* .burger-menu {
   display: none;
   cursor: pointer;
   float: right;
@@ -44,7 +50,7 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: rgb(255,231,212);
-}
+} */
 
 /* Media query for small screens */
 @media screen and (max-width: 991px) {

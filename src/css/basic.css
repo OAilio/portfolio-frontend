@@ -1,5 +1,5 @@
 body{
-  margin: 10vh 0% 0% 0%;
+  margin: 7vh 0% 0% 0%;
   background-color: rgb(255,231,212);
 }
 
@@ -58,7 +58,19 @@ a {
 }
 
 /* Media queries to adjust font sizes based on screen width */
-@media screen and (min-width: 992px) and (max-width: 1280px) {
+@media screen and (max-width: 1450px) {
+  :root {
+    --h1-font-size: 7rem;
+    --h2-font-size: 4rem;
+    --h3-font-size: 2.75rem;
+    --h4-font-size: 2.25rem;
+    --h5-font-size: 1.625rem;
+    --p-font-size: 1.5rem;
+    --navbar-font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   :root {
     --h1-font-size: 6rem;
     --h2-font-size: 3.5rem;
@@ -70,7 +82,31 @@ a {
   }
 }
 
-@media screen and (min-width: 479px) and (max-width: 991px) {
+@media screen and (max-width: 1065px) {
+  :root {
+    --h1-font-size: 5rem;
+    --h2-font-size: 3rem;
+    --h3-font-size: 2.25rem;
+    --h4-font-size: 1.8rem;
+    --h5-font-size: 1.625rem;
+    --p-font-size: 1.25rem;
+    --navbar-font-size: 1.2rem;
+  }
+}
+
+/* @media screen and (max-width: 991px) {
+  :root {
+    --h1-font-size: 5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 2.125rem;
+    --h4-font-size: 1.6rem;
+    --h5-font-size: 1.625rem;
+    --p-font-size: 1.25rem;
+    --navbar-font-size: 1rem;
+  }
+} */
+
+@media screen and (max-width: 768px) {
   :root {
     --h1-font-size: 4rem;
     --h2-font-size: 2.5rem;
@@ -82,11 +118,11 @@ a {
   }
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 400px) {
   :root {
-    --h1-font-size: 2.125rem;
-    --h2-font-size: 1.75rem;
-    --h3-font-size: 1.5rem;
+    --h1-font-size: 3rem;
+    --h2-font-size: 2.25rem;
+    --h3-font-size: 2rem;
     --h4-font-size: 1.25rem;
     --h5-font-size: 1.125rem;
     --p-font-size: 1.25rem;
