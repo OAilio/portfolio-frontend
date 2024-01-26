@@ -9,25 +9,37 @@ function Projects() {
         {
             id: 1,
             name: `Portfolio`,
-            image: `pictures/2.png`,
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere. Lorem  dolor sit amet orem ipsum dolor sit amet orem ipsum dolor sit`,
+            image: `pictures/1 – kopio – kopio.png`,
+            description: `"A collaborative web development project using Git version control to 
+            track changes and manage collaboration. The project focuses on creating a 
+            responsive and user-friendly e-commerce website, integrating features such 
+            as product catalog, user authentication, and a secure checkout system. 
+            Team members contribute through branches."`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
             id: 2,
             name: `Contact book`,
-            image: `pictures/1 – kopio.png`,
+            image: `pictures/1 – kopio – kopio.png`,
             description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Nunc sodales non dui sed posuere.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
-            id: 2,
+            id: 3,
             name: `Contact book 2`,
-            image: `pictures/1 – kopio.png`,
+            image: `pictures/1 – kopio – kopio.png`,
             description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Nunc sodales non dui sed posuere. Lorem ipsum dolor sit amet.`,
+            link: `https://github.com/OAilio/portfolio-frontend` 
+        },
+        {
+            id: 4,
+            name: `Contact book 3`,
+            image: `pictures/1 – kopio – kopio.png`,
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc sodales non dui sed posuere. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc sodales non dui sed posuere. Lorem ipsum.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         }
     ]
