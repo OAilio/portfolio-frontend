@@ -1,5 +1,5 @@
 .projects-container{
-    padding: 8vh 0vh;
+    padding: 8vh 0vh 12vh;
     color: rgb(140, 59, 75);
     background-color: rgb(254, 238, 224);
 }
@@ -47,7 +47,7 @@
 }
 
 .item-image img {
-    max-width: 35rem;
+    max-width: 28rem;
     /* border-style: solid;
     border-width: 4px; */
     border-radius: 10px;
