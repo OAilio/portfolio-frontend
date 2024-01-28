@@ -59,17 +59,6 @@
 }
 
 @media screen and (max-width: 1065px) {
-    .my-picture img{
-        max-width: 18rem;
-    }
-
-    .landing-bottom {
-        margin-top: 6vh;
-    }
-}
-
-
-@media screen and (max-width: 991px) {
     .landing-content {
         flex-direction: column;
         align-items: center;
@@ -84,7 +73,25 @@
     .my-picture img {
         display: block;
         margin: 1rem auto;
-        max-width: 16rem;
+        max-width: 25rem;
+    }
+
+    .landing-bottom {
+        margin-top: 6vh;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .landing-text {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .my-picture img {
+        display: block;
+        margin: 1rem auto;
+        max-width: 20rem;
     }
 
     .landing-bottom {
@@ -94,6 +101,10 @@
 
 @media screen and (max-width: 400px) {
     .landing-content {
-        padding-top: 6vh;
+        padding-top: 12vh;
+    }
+
+    .my-picture img {
+        max-width: 15rem;
     }
 }

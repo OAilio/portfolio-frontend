@@ -18,29 +18,32 @@ function Navbar() {
     <>
       <nav>
         <div className="navbar-logo">
-          <Link onClick={() => { scrollToTop(); closeMenu(); }} spy={true} smooth={true} duration={500} tabIndex={0}>OKKO AILIO</Link>
+          <Link onClick={() => { scrollToTop(); closeMenu(); }} spy={true} smooth={true} duration={700} tabIndex={0}>OKKO AILIO</Link>
         </div>
-        <div className="burger-menu" onClick={() => {
+        <div className={`burger-menu ${isOpen ? "open" : ""}`} onClick={() => {
           setIsOpen(!isOpen);
-          console.log("click!")
-          console.log("Current state:", isOpen)
+          console.log("click!");
+          console.log("Current state:", isOpen);
         }}>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span className="line1"></span>
+          <span className="line2"></span>
+          <span className="line3"></span>
         </div>
         <ul className={isOpen ? "open" : ""}>
           <li>
-            <Link onClick={() => { scrollToTop(); closeMenu(); }} spy={true} smooth={true} duration={500} tabIndex={0}>Home</Link>
+            <Link onClick={() => { scrollToTop(); closeMenu(); }} spy={true} smooth={true} duration={700} tabIndex={0}>Home</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} to="about" spy={true} smooth={true} offset={0} duration={500} tabIndex={0}>About</Link>
+            <Link onClick={closeMenu} to="about" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>About</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} to="projects" spy={true} smooth={true} offset={0} duration={500} tabIndex={0}>Projects</Link>
+            <Link onClick={closeMenu} to="hireme" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Hire me!</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} to="contact" spy={true} smooth={true} offset={0} duration={500} tabIndex={0}>Contact me</Link>
+            <Link onClick={closeMenu} to="projects" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Projects</Link>
+          </li>
+          <li>
+            <Link onClick={closeMenu} to="contact" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Contact me</Link>
           </li> 
         </ul>
       </nav>

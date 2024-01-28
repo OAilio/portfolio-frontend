@@ -20,7 +20,7 @@ function HireMe() {
           <h3>Team Player</h3>
           <FontAwesomeIcon icon={faPeopleCarryBox} className="card-icon" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere. </p>
+            Nunc sodales non dui sed posuere.</p>
         </div>
         <div className="hire-me-card">
           <h3>Proactive</h3>
@@ -30,8 +30,8 @@ function HireMe() {
         </div>
       </div>
       <div className="button-container">
-        <a className='blue-button'>
-          Download my CV
+      <a className='blue-button' href='pictures/okko.jpg' target='_blank'>
+          Check out my CV
         </a>
       </div>
     </div>
