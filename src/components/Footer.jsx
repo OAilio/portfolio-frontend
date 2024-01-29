@@ -18,7 +18,7 @@ function Footer() {
                 <a className="footer-icon" href='https://t.me/okkoailio' target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faTelegram}/>
                 </a>
-                <a className="footer-icon" href='mailto:oiaili@utu.fi'>
+                <a className="footer-icon" href='https://github.com/OAilio' target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>

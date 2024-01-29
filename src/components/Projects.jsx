@@ -9,38 +9,24 @@ function Projects() {
         {
             id: 1,
             name: `Portfolio`,
-            image: `pictures/1 – kopio – kopio.png`,
-            description: `"A collaborative web development project using Git version control to 
-            track changes and manage collaboration. The project focuses on creating a 
-            responsive and user-friendly e-commerce website, integrating features such 
-            as product catalog, user authentication, and a secure checkout system. 
-            Team members contribute through branches."`,
+            image: `pictures/portfolio.png`,
+            description: `My personal portfolio website, which I've created from scratch to display my dev & design skills.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
             id: 2,
-            name: `Contact book`,
-            image: `pictures/1 – kopio – kopio.png`,
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere.`,
-            link: `https://github.com/OAilio/portfolio-frontend` 
+            name: `Contact Book`,
+            image: `pictures/contactbook.png`,
+            description: `My first full-stack project, a single-page application (SPA) contact management application.`,
+            link: `https://github.com/OAilio/contactBook` 
         },
         {
             id: 3,
-            name: `Contact book 2`,
-            image: `pictures/1 – kopio – kopio.png`,
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere. Lorem ipsum dolor sit amet.`,
-            link: `https://github.com/OAilio/portfolio-frontend` 
-        },
-        {
-            id: 4,
-            name: `Contact book 3`,
-            image: `pictures/1 – kopio – kopio.png`,
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere. Lorem ipsum.`,
-            link: `https://github.com/OAilio/portfolio-frontend` 
+            name: `AlgoCompare`,
+            image: `pictures/algoritmit.png`,
+            description: `A first-year group project, which compares the sorting speeds of some of the most popular
+            sorting algorithms.`,
+            link: `https://github.com/OAilio/spAlgorithmComparison` 
         }
     ]
     const settings = {

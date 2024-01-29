@@ -22,7 +22,7 @@
     border-style: solid;
     /* border-width: 10px; */
     border-radius: 15px;
-    max-width: 80%;
+    max-width: 70%;
     display: block!important;
     margin: auto;
     padding: 1rem;
@@ -41,24 +41,20 @@
 }
 
 .item-image {
-    flex: 1.5;
-    /* margin: auto; */
-    padding: 1.3vw;
+    flex: 1;
+    padding: 1vw;
 }
 
 .item-image img {
-    max-width: 28rem;
-    /* border-style: solid;
-    border-width: 4px; */
-    border-radius: 10px;
-    /* box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15) */
+    max-width: 27rem;
+    margin: auto;
 }
 
 .item-content {
-    flex: 1.5;
+    flex: 1;
     margin: 0;
     padding: 0;
-    margin: 0 1.5vw;
+    margin: 0 1vw;
 }
 
 .slick-prev:before,
@@ -78,7 +74,7 @@
 
 @media screen and (max-width: 1450px) {
     .item-image img {
-        max-width: 30rem;
+        max-width: 22rem;
     }
 }
 
@@ -86,13 +82,13 @@
 
 @media screen and (max-width: 1280px) {
     .item-image img {
-        max-width: 25rem;
+        max-width: 18rem;
     }
 }
 
 @media screen and (max-width: 991px) {
     .item-image img {
-        max-width: 20rem;
+        max-width: 22rem;
         margin: auto;
     }
 
@@ -103,12 +99,22 @@
 
     .item-content .button-container {
         justify-content: center;
-    } 
+    }
+
+    .item-content{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .item-image img {
         max-width: 15rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .item-image img {
+        max-width: 10rem;
     }
 }
 

@@ -37,7 +37,7 @@ function Navbar() {
             <Link onClick={closeMenu} to="about" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>About</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} to="hireme" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Hire me!</Link>
+            <Link onClick={closeMenu} to="hireme" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Traits</Link>
           </li>
           <li>
             <Link onClick={closeMenu} to="projects" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Projects</Link>
