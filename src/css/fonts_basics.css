@@ -10,7 +10,6 @@ body{
   --h4-font-size: 2.5rem;
   --h5-font-size: 2.5rem;
   --p-font-size: 2rem;
-  --navbar-font-size: 2rem;
 }
 
 h1 {
@@ -44,6 +43,14 @@ h4 {
 h5 {
   font-size: var(--h5-font-size);
   font-family: 'Josefin Slab SemiBold';
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  font-size: var(--p-font-size);
+  font-family: 'Josefin Sans Regular';  
+  line-height: 1.2;
 }
 
 p {
@@ -53,7 +60,7 @@ p {
 }
 
 a {
-  font-size: var(--navbar-font-size);
+  font-size: var(--p-font-size);
   font-family: 'Josefin Sans Bold';
 }
 
@@ -66,7 +73,6 @@ a {
     --h4-font-size: 2.25rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.5rem;
-    --navbar-font-size: 1.5rem;
   }
 }
 
@@ -78,7 +84,6 @@ a {
     --h4-font-size: 2rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1.25rem;
   }
 }
 
@@ -90,21 +95,8 @@ a {
     --h4-font-size: 1.8rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1.25rem;
   }
 }
-
-/* @media screen and (max-width: 991px) {
-  :root {
-    --h1-font-size: 5rem;
-    --h2-font-size: 2.5rem;
-    --h3-font-size: 2.125rem;
-    --h4-font-size: 1.6rem;
-    --h5-font-size: 1.625rem;
-    --p-font-size: 1.25rem;
-    --navbar-font-size: 1rem;
-  }
-} */
 
 @media screen and (max-width: 768px) {
   :root {
@@ -114,7 +106,6 @@ a {
     --h4-font-size: 1.6rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1.25rem;
   }
 }
 
@@ -126,6 +117,5 @@ a {
     --h4-font-size: 1.25rem;
     --h5-font-size: 1.125rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1.25rem;
   }
 }
