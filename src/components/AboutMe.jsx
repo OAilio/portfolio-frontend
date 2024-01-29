@@ -21,9 +21,7 @@ function AboutMe() {
               <p>If You're still wondering, whether to hire me, check out the next segment.
                 You can also contact me immediately below!</p>
               <div className='button-container'>
-                <a className="blue-button">
-                  <Link to="contact" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Contact</Link>
-                </a>
+                  <Link className="blue-button" to="contact" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Contact</Link>
               </div>
             </div>
             <div className="my-skills">

@@ -13,19 +13,7 @@ import Projects from './components/Projects'
 import LandingContent from './components/LandingContent'
 import AboutMe from './components/AboutMe'
 import HireMe from './components/HireMe'
-
-
-const ContactMe = () => {
-  return (
-    <div className="contact-container">
-      <div className="hire-me-header" id="contact">
-        <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nunc sodales non dui sed posuere.</p>
-      </div>
-    </div>
-  )
-}
+import ContactMe from './components/ContactMe'
 
 function App() {
   return (

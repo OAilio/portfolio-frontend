@@ -78,7 +78,7 @@ a {
     --h4-font-size: 2rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1.2rem;
+    --navbar-font-size: 1.25rem;
   }
 }
 
@@ -90,7 +90,7 @@ a {
     --h4-font-size: 1.8rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1.2rem;
+    --navbar-font-size: 1.25rem;
   }
 }
 
@@ -114,7 +114,7 @@ a {
     --h4-font-size: 1.6rem;
     --h5-font-size: 1.625rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1rem;
+    --navbar-font-size: 1.25rem;
   }
 }
 
@@ -126,6 +126,6 @@ a {
     --h4-font-size: 1.25rem;
     --h5-font-size: 1.125rem;
     --p-font-size: 1.25rem;
-    --navbar-font-size: 1rem;
+    --navbar-font-size: 1.25rem;
   }
 }

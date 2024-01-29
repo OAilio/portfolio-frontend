@@ -14,6 +14,7 @@ nav .navbar-logo {
   margin: 1rem 1rem 1rem 2rem;
   text-decoration: none;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 nav ul {
@@ -124,18 +125,27 @@ nav .navbar-logo:hover {
   }
 
   nav ul {
-    display: none;
+    display: flex;
+    position: fixed;
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
     box-sizing: border-box;
-    margin: 0;
+    margin-top: 3.1rem;
     padding: 0;
+    right:0;
     overflow: hidden;
+    transform: translateX(100%);
+    transition: 0.25s ease-in;
+    background-color: rgb(53,80,112);
+    max-width: 50%;
+    height: 100%;
   }
 
   .open {
     display: flex;
+    transform: translateX(0);
+    max-width: 50%;
   }
 
   nav ul li {
@@ -146,7 +156,7 @@ nav .navbar-logo:hover {
   }
 
   nav ul li a {
-    margin: 0.2rem 0.5rem;
+    margin: 0.5rem;
   }
 
   nav .navbar-logo {

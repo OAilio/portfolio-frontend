@@ -18,7 +18,7 @@ function Navbar() {
     <>
       <nav>
         <div className="navbar-logo">
-          <Link onClick={() => { scrollToTop(); closeMenu(); }} spy={true} smooth={true} duration={700} tabIndex={0}>OKKO AILIO</Link>
+          <Link onClick={() => { scrollToTop(); closeMenu(); }} to="" spy={true} smooth={true} duration={700} tabIndex={0}>OKKO AILIO</Link>
         </div>
         <div className={`burger-menu ${isOpen ? "open" : ""}`} onClick={() => {
           setIsOpen(!isOpen);
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
         <ul className={isOpen ? "open" : ""}>
           <li>
-            <Link onClick={() => { scrollToTop(); closeMenu(); }} spy={true} smooth={true} duration={700} tabIndex={0}>Home</Link>
+            <Link onClick={() => { scrollToTop(); closeMenu(); }} to="" spy={true} smooth={true} duration={700} tabIndex={0}>Home</Link>
           </li>
           <li>
             <Link onClick={closeMenu} to="about" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>About</Link>
