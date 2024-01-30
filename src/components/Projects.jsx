@@ -10,21 +10,21 @@ function Projects() {
         {
             id: 1,
             name: `Portfolio`,
-            image: `dist/pictures/portfolio.png`,
+            image: `./dist/pictures/portfolio.png`,
             description: `My personal portfolio website, which I've created from scratch to display my dev & design skills.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
             id: 2,
             name: `Contact Book`,
-            image: `dist/pictures/contactbook.png`,
+            image: `./dist/pictures/contactbook.png`,
             description: `My first full-stack project, a single-page application (SPA) contact management application.`,
             link: `https://github.com/OAilio/contactBook` 
         },
         {
             id: 3,
             name: `AlgoCompare`,
-            image: `dist/pictures/algoritmit.png`,
+            image: `./dist/pictures/algoritmit.png`,
             description: `A first-year group project, which compares the sorting speeds of some of the most popular
             sorting algorithms.`,
             link: `https://github.com/OAilio/spAlgorithmComparison` 
