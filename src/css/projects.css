@@ -87,6 +87,9 @@
 }
 
 @media screen and (max-width: 991px) {
+    .projects-header {
+        max-width: 80%;
+    }
     .item-image img {
         max-width: 22rem;
         margin: auto;

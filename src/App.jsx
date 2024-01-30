@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import './css/fonts_basics.css'
+import './css/fontsizes_basics.css'
 import './css/navbar.css'
 import './css/landing.css'
 import './css/fonts.css'

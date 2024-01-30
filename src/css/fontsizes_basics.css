@@ -17,6 +17,7 @@ h1 {
   font-family: 'Josefin Sans Bold';
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
   font-family: 'Josefin Sans SemiBold';
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 h3 {
@@ -31,6 +33,7 @@ h3 {
   font-family: 'Josefin Sans Regular';
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 h4 {
@@ -38,30 +41,36 @@ h4 {
   font-family: 'Josefin Sans Regular';
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 h5 {
   font-size: var(--h5-font-size);
   font-family: 'Josefin Slab SemiBold';
+  line-height: 1.1;
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 h6 {
   font-size: var(--p-font-size);
   font-family: 'Josefin Sans Regular';  
   line-height: 1.2;
+  font-weight: normal;
 }
 
 p {
   font-size: var(--p-font-size);
   font-family: 'Josefin Slab SemiBold';
-  line-height: 1.1;
+  font-weight: normal;
+  line-height: 1.2;
 }
 
 a {
   font-size: var(--p-font-size);
   font-family: 'Josefin Sans Bold';
+  font-weight: normal;
 }
 
 /* Media queries to adjust font sizes based on screen width */
@@ -115,7 +124,7 @@ a {
     --h2-font-size: 2.25rem;
     --h3-font-size: 2rem;
     --h4-font-size: 1.25rem;
-    --h5-font-size: 1.125rem;
+    --h5-font-size: 1.5rem;
     --p-font-size: 1.25rem;
   }
 }
