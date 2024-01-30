@@ -12,7 +12,7 @@ const LandingContent = () => {
               with an interest for UI/UX-design and web development</h5>
           </div>
           <div className="my-picture">
-            <img src='./dist/pictures/okko.jpg' alt='My Picture' />
+            <img src='./public/pictures/okko.jpg' alt='My Picture' />
           </div>
         </div>
         <div className="landing-bottom">
