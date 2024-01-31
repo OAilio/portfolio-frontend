@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-useless-escape */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
@@ -11,7 +12,7 @@ function Projects() {
             id: 1,
             name: `Portfolio`,
             image: `./portfolio.png`,
-            description: `My personal portfolio website, which I've created from scratch to display my dev & design skills.`,
+            description: `My personal portfolio website, which I've created from scratch to display my web development and design skills.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
@@ -43,8 +44,7 @@ function Projects() {
             <div className="projects-container" id="projects">
                 <div className="projects-header">
                     <h2>Projects</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc sodales non dui sed posuere.</p>
+                    <p>Here are the projects that I've worked on during my studies</p>
                 </div>
                 <div>
                     <Slider {...settings} className='carousel-container'>

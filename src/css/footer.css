@@ -1,9 +1,6 @@
 .footer-container {
     display: flex;
     color: rgb(255,231,212);
-    /* color:rgb(53,80,112); */
-    /* background-color: rgb(0, 49, 49); */
-    /* /* background-color: rgb(53,80,112); */
     background-color: rgb(40, 40, 43); 
     padding: 2.5rem 0vh 5rem;
     height: 8rem;
@@ -23,13 +20,6 @@
     margin: 2rem;
 }
 
-/* .footer-icons{
-    background-color: aqua;
-}
-
-.footer-text{
-    background-color: rebeccapurple;
-} */
 
 .footer-icon{
     font-size: 2.5rem;
@@ -39,7 +29,7 @@
     cursor: pointer;
 }
 
-.footer-icon:hover {
+.footer-icon:hover{
     transform: scale(1.2);
 }
 

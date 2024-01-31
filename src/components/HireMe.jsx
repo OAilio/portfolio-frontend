@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpenReader, faLightbulb, faPeopleCarryBox } from '@fortawesome/free-solid-svg-icons';
 
@@ -5,28 +6,30 @@ function HireMe() {
   return (
     <div className="hire-me-container" id="hireme">
       <div className="hire-me-header">
-        <h2>Why should You hire me?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nunc sodales non dui sed posuere.</p>
+        <h2>Traits</h2>
+        <p>Here are some of my key traits as an employee and a person</p>
       </div>
       <div className="hire-me-cards">
         <div className="hire-me-card">
           <h3>Learner</h3>
           <FontAwesomeIcon icon={faBookOpenReader} className="card-icon" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere.</p>
+          <p>I'm always looking for ways to learn new things and improve my skills. 
+            I'm not afraid to challenge myself. 
+          </p>
         </div>
         <div className="hire-me-card">
           <h3>Team Player</h3>
           <FontAwesomeIcon icon={faPeopleCarryBox} className="card-icon" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere.</p>
+          <p>Student organization work and a career in team sports have 
+            improved my co-operation and communication skills.
+          </p>
         </div>
         <div className="hire-me-card">
           <h3>Proactive</h3>
           <FontAwesomeIcon icon={faLightbulb} className="card-icon" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc sodales non dui sed posuere.</p>
+          <p>By nature I'm self-motivated and excited to take on new tasks. I finish
+            what I start with precision and diligence.
+          </p>
         </div>
       </div>
       <div className="button-container">
