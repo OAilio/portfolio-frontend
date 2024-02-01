@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll';
 
 const LandingContent = () => {
     return (
@@ -17,7 +18,8 @@ const LandingContent = () => {
         </div>
         <div className="landing-bottom">
           <h4>Get to know me!</h4>
-          <FontAwesomeIcon icon={faAnglesDown} fade className="down-arrows"/>
+          <Link to="about" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>
+            <FontAwesomeIcon icon={faAnglesDown} fade className="down-arrows"/></Link>
         </div>
       </div>
     )

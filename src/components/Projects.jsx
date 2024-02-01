@@ -49,8 +49,6 @@ function Projects() {
                 <div>
                     <Slider {...settings} className='carousel-container'>
                         {allProjects.map((project) => {
-                            console.log("Mapping started");
-
                             return (
                             <div className="carousel-item" key={project.id}>
                                 <div className="item-header">
