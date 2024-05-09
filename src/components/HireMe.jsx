@@ -21,7 +21,7 @@ function HireMe() {
           <h3>Team Player</h3>
           <FontAwesomeIcon icon={faPeopleCarryBox} className="card-icon" />
           <p>Student organization work and a career in team sports have 
-            improved my co-operation and communication skills.
+            improved my cooperation and communication skills.
           </p>
         </div>
         <div className="hire-me-card">
@@ -33,7 +33,7 @@ function HireMe() {
         </div>
       </div>
       <div className="button-container">
-      <a className='blue-button' href='/CV OKKO AILIO ENG 2024 port.pdf' target='_blank'>
+      <a className='blue-button' href='/cvokkoailio2024portfolio.pdf' target='_blank'>
           Check out my CV
         </a>
       </div>

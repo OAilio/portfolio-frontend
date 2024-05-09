@@ -15,11 +15,14 @@ function AboutMe() {
           <div className="about-me-content">
             <div className="get-to-know">
               <h3>Get to know me!</h3>
-              <p>I'm a 23-year-old computer science student at the University of Turku, originally from Helsinki.</p>
-              <p>Currently I'm writing my bachelors thesis on UI design, focusing on the visual elements.
-                This supports my interest in the field of digital design and web development.<br/><br/> I'm looking for diverse
-                job opportunities, as I'm graduating with a bachelors degree this spring, and will continue my
-                academic journey as a masters student in interaction design next fall. 
+              <p>
+                I'm a Helsinki-born Interaction Design MSc student at the University of Turku.
+                <br></br><br></br>
+                I've recently graduated with my bachelor's degree in CS. My tech interests revolve around visual aspects, particularly UI/UX design and frontend development.
+                To support this I wrote my bachelor's thesis on dark UI themes, which enhanced my understanding of UI design.
+                <br></br><br></br>
+                I'm eager to explore diverse job opportunities to kickstart my career! 
+                Additionally, I'm open to discussing potential master's thesis topics that could benefit your company!
               </p>
               <div className='button-container'>
                   <Link className="blue-button" to="contact" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Contact</Link>

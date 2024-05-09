@@ -20,13 +20,12 @@
 .carousel-item {
     background-color: rgb(255,231,212);
     border-style: solid;
-    /* border-width: 10px; */
     border-radius: 15px;
     max-width: 70%;
-    display: block!important;
-    margin: auto;
+    display: flex!important;
+    flex-direction: column;
+    margin: 0 auto;
     padding: 1rem;
-    align-items: center;
 }
 
 .item-header {
@@ -37,7 +36,6 @@
 .item-container {
     max-width: 100%;
     display: flex;
-    align-items: stretch;
 }
 
 .item-image {
@@ -62,9 +60,26 @@
   color: rgb(140, 59, 75)!important;
 }
 
-.slick-track {
-    margin: auto;
+.slick-track
+{
+    display: flex !important;
 }
+
+.slick-slide {
+    height: auto !important;
+  }
+  
+  .slick-track {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+  }
+
+/* .slick-slide
+{
+    height: auto !important;
+} */
 
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before{
@@ -92,20 +107,16 @@
     }
     .item-image img {
         max-width: 22rem;
-        margin: auto;
+        /* margin: auto; */
     }
 
     .item-container {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
     }
 
     .item-content .button-container {
         justify-content: center;
-    }
-
-    .item-content{
-        margin: 0;
     }
 }
 
@@ -115,7 +126,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .item-image img {
         max-width: 10rem;
     }

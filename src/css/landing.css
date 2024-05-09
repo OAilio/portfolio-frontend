@@ -93,6 +93,10 @@
         text-align: center;
         margin-right: 0;
     }
+    
+    .landing-text h2, h5 {
+        margin: 0.5rem;
+    }
 
     .my-picture img {
         display: block;

@@ -12,14 +12,14 @@ function Projects() {
             id: 1,
             name: `Portfolio`,
             image: `./portfolio.png`,
-            description: `My personal portfolio website, which I've created from scratch to display my web development and design skills.`,
+            description: `My personal portfolio website, which I've created from scratch to display my web development skills and design potential.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
             id: 2,
             name: `Contact Book`,
             image: `./contactbook.png`,
-            description: `My first full-stack project, a single-page application (SPA) contact management application.`,
+            description: `My first full-stack web project, a SPA contact management application created with React and Node.js.`,
             link: `https://github.com/OAilio/contactBook` 
         },
         {
@@ -37,7 +37,8 @@ function Projects() {
         centerPadding: "0px",
         slidesToShow: 1,
         speed: 500,
-        dots: true
+        dots: true,
+        adaptiveHeight: false
     };
     return (
         <>
