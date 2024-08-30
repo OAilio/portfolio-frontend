@@ -10,20 +10,27 @@ function Projects() {
     const allProjects = [
         {
             id: 1,
+            name: `Mitäsöis`,
+            image: `./mitasois.png`,
+            description: `A MERN-stack app that helps the user store their cooking history and decide what to make when it's time to go grocery shopping.`,
+            link: `https://github.com/OAilio/mitasois` 
+        },
+        {
+            id: 2,
             name: `Portfolio`,
             image: `./portfolio.png`,
             description: `My personal portfolio website, which I've created from scratch to display my web development skills and design potential.`,
             link: `https://github.com/OAilio/portfolio-frontend` 
         },
         {
-            id: 2,
+            id: 3,
             name: `Contact Book`,
             image: `./contactbook.png`,
             description: `My first full-stack web project, a SPA contact management application created with React and Node.js.`,
             link: `https://github.com/OAilio/contactBook` 
         },
         {
-            id: 3,
+            id: 4,
             name: `AlgoCompare`,
             image: `./algoritmit.png`,
             description: `A first-year group project, which compares the sorting speeds of some of the most popular

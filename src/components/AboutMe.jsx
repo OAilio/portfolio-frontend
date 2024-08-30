@@ -2,7 +2,7 @@
 import { Link } from "react-scroll";
 
 function AboutMe() {
-    const listOfSkills = ["HTML", "CSS", "JavaScript", "Python", "Figma", "Java", "Canva",
+    const listOfSkills = ["UI Design","HTML", "CSS", "SCSS", "JavaScript", "Python", "Figma", "Java", "Canva",
     "Scrum", "Office Programs", "WordPress", "Git", "React", "SQL"]
     
     return (
