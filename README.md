@@ -2,7 +2,7 @@
 
 Hello and welcome to my personal portfolio! 🚀 
 
-This site is designed and developed by me from scratch. It's built with React using Vite, most of the code consisting of CSS. The site is deployed and hosted with GitHub pages.
+This site is designed and developed by me from scratch. It's built with React using Vite, most of the code consisting of CSS. The site is deployed and hosted with Vercel.
 
 Feel free to have a look and hit me up!
 
