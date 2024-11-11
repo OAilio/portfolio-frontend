@@ -33,7 +33,7 @@ function HireMe() {
         </div>
       </div>
       <div className="button-container">
-      <a className='blue-button' href='/CVOkkoAilio102024portfolio.pdf' target='_blank'>
+      <a className='blue-button' href='/cvOkkoAilio112024portfolio.pdf' target='_blank'>
           Check out my CV
         </a>
       </div>
