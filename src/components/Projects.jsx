@@ -25,6 +25,14 @@ function Projects() {
             button_text: "Figma" 
         },
         {
+            id: 9,
+            name: `Event Programme`,
+            image: `./hbc.png`,
+            description: `A mobile-first designed React app, used as an event programme for a basketball game student event.`,
+            link: `https://github.com/OAilio/HBCStudentNight`,
+            button_text: "GitHub" 
+        },
+        {
             id: 2,
             name: `Portfolio`,
             image: `./portfolio.png`,
