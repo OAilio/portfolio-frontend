@@ -2,8 +2,8 @@
 import { Link } from "react-scroll";
 
 function AboutMe() {
-    const listOfSkills = ["UI Design","HTML", "CSS", "SCSS", "JavaScript", "Python", "Figma", "Java", "Canva",
-    "Scrum", "Office Programs", "WordPress", "Git", "React", "SQL"]
+    const listOfSkills = ["UI/UX Design", "User Communication", "CSS", "SASS", "Tailwind", "React", "JavaScript", "TypeScript", "Canva",
+    "Scrum", "Office Programs", "WordPress", "Python", "Java", "Git",  "SQL"]
     
     return (
       <>
@@ -18,11 +18,11 @@ function AboutMe() {
               <p>
                 I'm a Helsinki-born Interaction Design MSc student at the University of Turku.
                 <br></br><br></br>
-                I've recently graduated with my bachelor's degree in CS. My tech interests revolve around visual aspects, particularly UI/UX design and frontend development.
-                To support this I wrote my bachelor's thesis on dark UI themes, which enhanced my understanding of UI design.
+                I've recently kickstarted my career in data visualisation as a designer-developer. Early in my studies I developed an interest towards the
+                visual aspects of tech, particularly UI/UX & frontend development.
                 <br></br><br></br>
-                I'm eager to explore diverse job opportunities to kickstart my career! 
-                Additionally, I'm open to discussing potential master's thesis topics that could benefit your company!
+                I'm eager to explore diverse opportunities to utilize my skills in creating cool s***. 
+                As I'm heading into my final year of studies, I'm open to discussing potential master's thesis topics that could benefit your company!
               </p>
               <div className='button-container'>
                   <Link className="blue-button" to="contact" spy={true} smooth={true} offset={0} duration={700} tabIndex={0}>Contact</Link>
